@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+
+#container{
+	margin:20px;
+}
+
+#container::after{
+	content:'after container';
+	margin-left:10px;
+	color:red;
+}
+
+#container::before{
+	content:'before container';
+	margin-right:10px;
+	color:red;
+}
+
+
