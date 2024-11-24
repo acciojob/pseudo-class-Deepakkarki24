@@ -5,15 +5,17 @@
 }
 
 #container::after{
-	content:'after container';
+	content:'After Element';
 	margin-left:10px;
 	color:red;
+	font-size:20px;
 }
 
 #container::before{
-	content:'before container';
+	content:'Before Element';
 	margin-right:10px;
 	color:red;
+	font-size:20px;
 }
 
 
